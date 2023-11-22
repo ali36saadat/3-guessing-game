@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Guess My Number!</title>
-  </head>
-  <body>
-    <header>
-      <h1>I Guess You!</h1>
-      <p class="between">(Between 0 and 63)</p>
-      <button class="btn again">Again!</button>
-      <button class="btn back">Back</button>
-      <div class="number">?</div>
-    </header>
-    <main>
-      <section class="down">
-        <button class="btn start">Start</button>
-      </section>
-      <section class="sentence hidden">
-        <p class="randomSentence"></p>
-      </section>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Guess My Number!</title>
+   </head>
+   <body>
+      <!-- Header -->
+      <header>
+         <h1>I Guess You!</h1>
+         <p class="between">(Between 0 and 63)</p>
+         <button class="btn again">Again!</button>
+         <button class="btn back">Back</button>
+         <div class="number">?</div>
+      </header>
 
-      <section class="right hidden">
-        <p class="numbers"></p>
-      </section>
-      <section class="left hidden">
-        <button class="btn yes">Yes</button>
-        <button class="btn no">No</button>
-      </section>
-    </main>
-    <script src="script.js"></script>
-  </body>
+      <!-- Main -->
+      <main>
+         <section class="down">
+            <button class="btn start">Start</button>
+         </section>
+         <section class="sentence hidden">
+            <p class="randomSentence"></p>
+         </section>
+
+         <section class="right hidden">
+            <p class="numbers"></p>
+         </section>
+         <section class="left hidden">
+            <button class="btn yes">Yes</button>
+            <button class="btn no">No</button>
+         </section>
+      </main>
+
+      <!-- Script -->
+      <script src="script.js"></script>
+   </body>
 </html>

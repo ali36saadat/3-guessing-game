@@ -1,109 +1,109 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
 }
 
 html {
-  font-size: 62.5%;
-  box-sizing: border-box;
+   font-size: 62.5%;
+   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Press Start 2P', sans-serif;
-  color: #eee;
-  background-color: #222;
-  position: relative;
-  height: 100vh;
+   font-family: "Press Start 2P", sans-serif;
+   color: #eee;
+   background-color: #222;
+   position: relative;
+   height: 100vh;
 }
 
 button {
-  font-family: inherit;
-  display: block;
-  margin: auto;
-  margin-top: 2rem;
-  width: 50rem;
-  height: 10rem;
-  font-size: 3rem;
-  color: #222;
+   font-family: inherit;
+   display: block;
+   margin: auto;
+   margin-top: 2rem;
+   width: 50rem;
+   height: 10rem;
+   font-size: 3rem;
+   color: #222;
 }
 
 h1 {
-  text-align: center;
-  padding: 5rem 0;
-  font-size: 8rem;
+   text-align: center;
+   padding: 5rem 0;
+   font-size: 8rem;
 }
 
 a {
-  text-decoration: none;
-  color: #222;
+   text-decoration: none;
+   color: #222;
 }
 
 .modal {
-  margin: auto;
-  width: 75%;
-  height: 75%;
-  padding: 6rem;
-  background-color: #ddd;
-  color: #222;
-  position: absolute;
-  display: inline;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 10;
+   margin: auto;
+   width: 75%;
+   height: 75%;
+   padding: 6rem;
+   background-color: #ddd;
+   color: #222;
+   position: absolute;
+   display: inline;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 10;
 }
 
 .modal h2 {
-  text-align: center;
-  margin-bottom: 2rem;
-  font-size: 4rem;
+   text-align: center;
+   margin-bottom: 2rem;
+   font-size: 4rem;
 }
 
 .modal p {
-  font-size: 2.2rem;
+   font-size: 2.2rem;
 }
 
 .hidden {
-  display: none;
+   display: none;
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(3px);
-  z-index: 5;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   backdrop-filter: blur(3px);
+   z-index: 5;
 }
 
 .modal button {
-  position: absolute;
-  top: 0;
-  right: 2rem;
-  font-family: inherit;
-  display: inline;
-  margin-top: 2rem;
-  width: auto;
-  height: auto;
-  font-size: 4rem;
-  color: #222;
-  background: none;
-  border: none;
+   position: absolute;
+   top: 0;
+   right: 2rem;
+   font-family: inherit;
+   display: inline;
+   margin-top: 2rem;
+   width: auto;
+   height: auto;
+   font-size: 4rem;
+   color: #222;
+   background: none;
+   border: none;
 }
 
 .modal .startGame {
-  position: absolute;
-  bottom: 10%;
-  right: 40%;
-  width: 30rem;
-  height: 10rem;
-  background-color: white;
-  text-align: center;
-  padding-top: 3.5rem;
-  font-size: 3rem;
+   position: absolute;
+   bottom: 10%;
+   right: 40%;
+   width: 30rem;
+   height: 10rem;
+   background-color: white;
+   text-align: center;
+   padding-top: 3.5rem;
+   font-size: 3rem;
 }

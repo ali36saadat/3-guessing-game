@@ -1,57 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="stylesheet" href="style.css" />
 
-    <title>! GUESS !</title>
-  </head>
-  <body>
-    <div class="overlay hidden"></div>
-    <h1>☠️GUESS GAME☠️</h1>
-    <button class="guessMe">🎲 Guess Me 🎲</button>
-    <button class="iGuessYou">🤖 I Guess You 🤖</button>
-    <button class="guessDual">💣 Guess Dual 💣</button>
-    <section class="description">
-      <div class="modalGuessMe modal hidden">
-        <button class="close-modal modal-1">&times;</button>
-        <h2>Guess Me</h2>
-        <p>
-          In this game, a random number between 1 and 64 is considered and you
-          have to guess it. <br /><br />
-          Note : You have 20 chances to find the number
-        </p>
-        <a href="GuessMe/index.html">
-          <div class="startGame">Let's Go</div>
-        </a>
-      </div>
+      <title>! GUESS !</title>
+   </head>
+   <body>
+      <div class="overlay hidden"></div>
+      <h1>☠️GUESS GAME☠️</h1>
 
-      <div class="modalIGuessYou modal hidden">
-        <button class="close-modal modal-2">&times;</button>
-        <h2>I Guess You</h2>
-        <p>
-          You consider a number and I will tell you your number with a few
-          questions <br /><br />
-        </p>
-        <a href="IGuessYou/index.html">
-          <div class="startGame">Let's Go</div>
-        </a>
-      </div>
+      <!-- Game One : Guess ME -->
+      <button class="guessMe">🎲 Guess Me 🎲</button>
 
-      <div class="modalGuessDual modal hidden">
-        <button class="close-modal modal-3">&times;</button>
-        <h2>Guess Dual</h2>
-        <p>
-          In this game, Two players consider a number and enter it. Players must
-          try to guess their opponent's number
-        </p>
-        <a href="GuessDual/index.html">
-          <div class="startGame">Let's Go</div>
-        </a>
-      </div>
-    </section>
-    <script src="script.js"></script>
-  </body>
+      <!-- Game two : I Guess You -->
+      <button class="iGuessYou">🤖 I Guess You 🤖</button>
+
+      <!-- Game three : Guess Dual -->
+      <button class="guessDual">💣 Guess Dual 💣</button>
+
+      <!-- description games -->
+      <section class="description">
+         <!-- description Game one -->
+         <div class="modalGuessMe modal hidden">
+            <button class="close-modal modal-1">&times;</button>
+            <h2>Guess Me</h2>
+            <p>
+               In this game, a random number between 1 and 64 is considered and
+               you have to guess it.
+               <br />
+               <br />
+               Note : You have 20 chances to find the number
+            </p>
+            <a href="GuessMe/index.html">
+               <div class="startGame">Let's Go</div>
+            </a>
+         </div>
+
+         <!-- description Game two -->
+         <div class="modalIGuessYou modal hidden">
+            <button class="close-modal modal-2">&times;</button>
+            <h2>I Guess You</h2>
+            <p>
+               You consider a number and I will tell you your number with a few
+               questions
+               <br />
+               <br />
+            </p>
+            <a href="IGuessYou/index.html">
+               <div class="startGame">Let's Go</div>
+            </a>
+         </div>
+
+         <!-- description Game three -->
+         <div class="modalGuessDual modal hidden">
+            <button class="close-modal modal-3">&times;</button>
+            <h2>Guess Dual</h2>
+            <p>
+               In this game, Two players consider a number and enter it. Players
+               must try to guess their opponent's number
+            </p>
+            <a href="GuessDual/index.html">
+               <div class="startGame">Let's Go</div>
+            </a>
+         </div>
+      </section>
+
+      <!-- scripts -->
+      <script src="script.js"></script>
+   </body>
 </html>
